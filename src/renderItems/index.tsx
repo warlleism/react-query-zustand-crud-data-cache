@@ -4,7 +4,6 @@ import Modal from 'react-modal';
 import { ICharacters } from "../interfaces/ICharacters";
 
 export const RenderItems = () => {
-
     const { data, editItems, deleteItems } = useStore();
     const [selectedCharacter, setSelectedCharacter] = useState<null | ICharacters>(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
